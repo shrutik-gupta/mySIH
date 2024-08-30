@@ -1,0 +1,31 @@
+.createButton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.signPad{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.signature{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.farmer-sign , .buyer-sign {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cropsModal {
+    z-index: 100;
+}
+.contractFarmerModal {
+    z-index: 100;
+}
